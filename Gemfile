@@ -34,7 +34,7 @@ gem 'messengerjs-rails'
 gem 'anjlab-bootstrap-rails', :require => 'bootstrap-rails',
                               :github => 'anjlab/bootstrap-rails',
                               :branch => '3.0.0'
-
+gem 'activeadmin', github: 'gregbell/active_admin', branch: 'rails4'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
